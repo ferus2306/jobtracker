@@ -1,0 +1,115 @@
+#id1, #id2 {
+	border: 3px solid black;
+	text-align: center;
+	margin-left: 150px;
+	/* background-color: rgb(223, 217, 217); */
+	
+	width: 700px;
+	box-shadow: inset 0 0 20px 0px green;
+	border-radius: 55px;
+}
+
+.box {
+	margin-top: 15px;
+	height: 30px;
+	border-color: green;
+}
+
+
+#save ,#register, #logIn {
+	margin-top: 30px;
+	height: 40px;
+	width: 200px;
+	font-size: 15px;
+	
+	background-color: white;
+	border-radius: 30px;
+	border: 2px solid #4CAF50;
+	margin-bottom: 20px;	
+}
+
+#applied {
+	margin-top: 30px;
+	height: 40px;
+	width: 200px;
+	font-size: 15px;
+	
+	background-color: white;
+	border-radius: 30px;
+	border: 2px solid #4CAF50;
+	margin-bottom: 20px;	
+}
+
+#start {
+	font-size: 50px;
+	text-align: center;
+	color: green;
+	margin-top: 90px;
+	margin-bottom: 100px;
+}
+
+body {
+	background-image: url("background.jpg");
+	background-position: center center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+ol li{
+	list-style-type: none;
+	margin-left: -30px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	
+	text-align: center;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+ol li h3 {
+	text-decoration: underline;
+	
+}
+
+ol li button {
+	
+	color: #4CAF50;
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	padding: 10px 32px;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	width: 95px;
+}
+
+
+.saveButton2 {
+	width: 200px;
+}
+
+#registerButton, #logInButton {
+	width: 150px;
+	height: 30px;
+	margin-top: 30px;
+	border-radius: 30px;
+	border: 2px solid #4CAF50;
+	
+}
+
+
+
+@media only screen and (max-width:980px) {
+	#id1, #id2 {
+		width: 400px;
+		margin-left: 70px;
+	}
+	#save {
+		margin-top: 30px;
+		height: 40px;
+		width: 150px;	
+	}
+}
